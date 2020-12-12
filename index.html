@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donation</title>
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!--internal CSS-->
+  <link rel="stylesheet" href="style.css">
+
+  <!--font awesome-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+
+<body>
+  <section class="coloured-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="">Donation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#title">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Please come forward and contribute. Your contribution will transform lives.</h1>
+            <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_GCBj9gjL1z3qcA/view" data-text="Pay Now" data-color="#528FF0" data-size="large">
+                <script>
+                    (function () {
+                        var d = document; var x = !d.getElementById('razorpay-embed-btn-js')
+                        if (x) {
+                            var s = d.createElement('script'); s.defer = !0; s.id = 'razorpay-embed-btn-js';
+                            s.src = 'https://cdn.razorpay.com/static/embed_btn/bundle.js'; d.body.appendChild(s);
+                        } else {
+                            var rzp = window['__rzp__'];
+                            rzp && rzp.init && rzp.init()
+                        }
+                    })();
+                </script>
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-6">
+            <img class="title-image" src="images/donate.jpg" alt="Donate-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+            <i class="icon fas fa-graduation-cap fa-4x"></i>
+          <h3 class="feature-title"> Education.</h3>
+          <p>We work to empower all students to apply their acquired skills and knowledge.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+            <i class=" icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title"> Nutrition</h3>
+          <p>We work to provide nutritious products and also increasing awareness of their benefits.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+            <i class="icon fas fa-child fa-4x"></i>
+          <h3 class="feature-title"> Livelihood.</h3>
+          <p>Our livelihood intervention enable families to enhance income and provide better for their children.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+
+        <div id="testimonials-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fuild">
+                    <img class="testimonials-image image" src="images/Picture1.png" alt="Eduction">
+                </div>
+                <div class="carousel-item container-fuild">
+                    <img class="testimonials-image image" src="images/Picture2.png" alt="no-child-hugry">
+                </div>
+                <div class="carousel-item container-fuild">
+                    <img class="testimonials-image image" src="images/Picture3.png" alt="no-child-homeless">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </section>
+
+  <!-- Footer -->
+
+    <footer class="colored-section" id="footer">
+        <div class="container-fluid">
+
+            <i class="fab fa-facebook-f social-logo"></i>
+            <i class="fab fa-twitter social-logo"></i>
+            <i class="fab fa-instagram social-logo"></i>
+            <i class="fas fa-envelope social-logo"></i>
+            <br/>
+            <p>© Copyright 2020 Donation</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
